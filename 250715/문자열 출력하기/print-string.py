@@ -1,4 +1,4 @@
 N = int(input())
 
-for char in range(N):
+for i in range(N):
     print("LeebrosCode")
