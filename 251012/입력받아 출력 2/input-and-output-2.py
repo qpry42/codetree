@@ -1,3 +1,3 @@
 a, b = map(int,input().split("-"))
 
-print(ab)
+print(a,b)
