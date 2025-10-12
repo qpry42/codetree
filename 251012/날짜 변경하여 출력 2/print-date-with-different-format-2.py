@@ -6,3 +6,6 @@ d = arr[1]
 y = arr[2]
 
 print(f"{y}.{m}.{d}")
+
+#a,b,c =map(int,input().split("-"))
+#print(f"{c}.{a}.{b}")
