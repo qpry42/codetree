@@ -3,4 +3,5 @@ a = int(input())
 if a < 0 :
     print(a)
     print("minus")
-print(a)
+if a >= 0:
+    print(a)
