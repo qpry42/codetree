@@ -5,5 +5,7 @@ if n % 2 == 0:
         print(28)
     if n == 8:
         print(31)
+    else:
+        print(30)
 else:
     print(31)
