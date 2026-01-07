@@ -6,9 +6,8 @@ B_age = int(B_age)
 A_sex = str(A_sex)
 B_sex = str(B_sex)
 
-if A_age >= 19 or B_age >= 19:
-    if A_sex == "M" or B_sex == "M":
-        print(1)
+if A_age >= 19 and A_sex == "M" or B_age >= 19 and B_sex == "M":
+    print(1)
     
     elif A_sex =="W" and B_sex == "W":
         print(0) 
