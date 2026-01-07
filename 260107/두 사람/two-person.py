@@ -11,6 +11,15 @@ if A_age >= 19 and A_sex == "M" or B_age >= 19 and B_sex == "M":
 else:
     print(0)
 
+#list를 쓰면 위보다 간략하게 쓸 수 있다.
+'''a=list(input().split())
+b=list(input().split())
+if int(a[0])>=19 and a[1]=="M" or int(b[0])>=19 and b[1]=="M":
+    print(1)
+else:
+    print(0)'''
+
+
 '''두사람의 나이와 성별
 1. 둘 중 하나라도 19세 이상
 1-1. 남자면 1
