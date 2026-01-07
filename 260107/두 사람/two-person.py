@@ -11,4 +11,6 @@ if A_age >= 19 or B_age >= 19:
         print(1)
     else:
         print(0)
+else:
+    print(0)
         
