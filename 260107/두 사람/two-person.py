@@ -10,9 +10,14 @@ if A_age >= 19 or B_age >= 19:
     if A_sex == "M" or B_sex == "M":
         print(1)
     
-    elif A_sex =="W" or B_sex == "W":
+    elif A_sex =="W" and B_sex == "W":
         print(0) 
 else:
     print(0)
 
-        
+'''두사람의 나이와 성별
+1. 둘 중 하나라도 19세 이상
+1-1. 남자면 1
+1-2 둘다 여자면 0 
+2. 둘 다 19세 미만이라면 0
+'''
