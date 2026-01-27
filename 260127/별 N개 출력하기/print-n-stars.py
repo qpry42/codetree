@@ -3,5 +3,5 @@ N = int(input())
 i = 1
 
 while i <= N:
-    print('*', end=" ")
+    print('*')
     i += 1
