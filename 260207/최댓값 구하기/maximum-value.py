@@ -4,5 +4,5 @@ if a >= b and b >= c:
     print(a)
 elif a == b and b >= c:
     print(b)
-else:
+elif a == b == c:
     print(c)
